@@ -1,12 +1,41 @@
 .slick-slide {
-    width: 400px;
-    height: 266px;
+    width: 396px;
+    /*height: 266px;*/
+    outline: none !important;
 }
 
 .slick-slide h3{
+    width: 396px;
     height: 266px;
 }
 
 .color-green {
-    background-color: green;
+    background-color: green !important;
+}
+
+.color-violet {
+    background-color: blueviolet;
+}
+
+.color-brown {
+    background-color: brown;
+}
+
+.color-violet {
+    background-color: blueviolet;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 48px !important;
+    color: #69AAC2;
+}
+
+.slick-arrow {
+    z-index: 100;
+}
+.slick-prev {
+    left: 15px !important;
+}
+
+.slick-next {
+    right: 40px !important;
 }
