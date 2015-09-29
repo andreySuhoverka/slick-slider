@@ -1,10 +1,14 @@
 $(document).ready(function() {
 
     $('.responsive').slick({
-        slidesToShow: 6,
+        slidesToShow: 4,
         slidesToScroll: 1,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        infinite: true,
+        variableWidth: true,
 
-        responsive: [{
+        /*responsive: [{
             breakpoint: 1024,
             settings: {
                 slidesToShow: 5,
@@ -35,7 +39,7 @@ $(document).ready(function() {
                 slidesToShow: 1,
                 slidesToScroll: 1,
             }
-        }]
+        }]*/
     });
 
 
